@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/vladimir-semeryuk/age-calculator-fm)
-- Live Site URL: [Live site URL](https://vladimir-semeryuk.github.io/age-calculator-fm/)
+- [Solution URL](https://github.com/vladimir-semeryuk/age-calculator-fm)
+- [Live site URL](https://vladimir-semeryuk.github.io/age-calculator-fm/)
 
 ## My process
 
