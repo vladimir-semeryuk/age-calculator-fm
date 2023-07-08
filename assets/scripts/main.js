@@ -140,13 +140,21 @@ function validateDate(date, day, month) {
   }
 }
 
+function createDate(day, month, year){
+  const date = new Date();
+  date.setFullYear(year);
+  date.setMonth(month - 1);
+  date.setDate(day);
+  return date;
+}
+
 function displayInput() {
   const day = parseInt(dayInput.value)
   const month = parseInt(monthInput.value)
   const year = parseInt(yearInput.value)
 
   if (validateInput(day, month, year)) {
-    const selectedDate = new Date(year, month - 1, day)
+    const selectedDate = createDate(day, month, year)
     if (validateDate(selectedDate, day, month)) {
       clearErrors()
       let difference = calculateDifference(selectedDate)
