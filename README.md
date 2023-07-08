@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/vladimir-semeryuk/age-calculator-fm)
+- Live Site URL: [Live site URL](https://vladimir-semeryuk.github.io/age-calculator-fm/)
 
 ## My process
 
@@ -47,5 +47,5 @@ Users should be able to:
 
 ### What I learned
 
-Refreshed basic JavaScript skills
+Refreshed basic JavaScript skills, especially working with dates
 
