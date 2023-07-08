@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+
+  <link rel="preconnect" href="https://api.fonts.coollabs.io">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fonts.coollabs.io/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+  <main>
+    <form action="/" method="post" id="main-form" onsubmit="event.preventDefault()">
+      <div class="inputs-container">
+        <div class="input-group">
+          <label for="day-input">Day</label>
+          <input type="number" name="day-input" id="day-input" placeholder="DD" required>
+          <p class="error-message" id="error-day">Must be a valid day</p>
+          <p class="error-message" id="error-generic">Must be a valid date</p>
+        </div>
+        <div class="input-group">
+          <label for="month-input">Month</label>
+          <input type="number" name="month-input" id="month-input" placeholder="MM" required>
+          <p class="error-message" id="error-month">Must be a valid month</p>
+        </div>
+        <div class="input-group">
+          <label for="year-input">Year</label>
+          <input type="number" name="year-input" id="year-input" placeholder="YYYY" required>
+          <p class="error-message" id="error-year">Must be a valid year</p>
+        </div>
+      </div>
+    </form>
+    <div class="arrow-group">
+      <div class="line"></div>
+      <button class="arrow" id="btn-submit" type="submit" form="main-form">
+        <img src="./assets/images/icon-arrow.svg" alt="Decorative arrow down">
+      </button>
+    </div>
+    <section class="output">
+      <p><span class="highlight" id="year-output">- -</span> years</p>
+      <p><span class="highlight" id="month-output">- -</span> months</p>
+      <p><span class="highlight" id="day-output">- -</span> days</p>
+    </section>
+
+  </main>
+  <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>
