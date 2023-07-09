@@ -171,6 +171,10 @@ input:focus-visible {
 }
 
 @media (max-width: 425px) {
+    html {
+        font-size: 12px;
+    }
+    
     .highlight {
         display: block;
     }
