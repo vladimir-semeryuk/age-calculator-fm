@@ -156,8 +156,8 @@ input:focus-visible {
 }
 
 @media (max-width:768px) {
-    html {
-        font-size: 10px;
+    main {
+        margin: 0 1rem;
     }
 
     .inputs-container {
@@ -166,11 +166,18 @@ input:focus-visible {
 
     .arrow-group {
         justify-content: center;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .highlight {
+        display: block;
     }
 }
 
 @media (max-width:375px) {
     html {
-        font-size: 8px;
+        font-size: 10px;
     }
 }
